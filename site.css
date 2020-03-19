@@ -1,0 +1,225 @@
+.header{
+    display: block;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.26);
+    min-height: 50px;
+}
+.title{
+    display: inline-block;
+}
+.nav_list{
+    width: 100%;
+    display: block;
+}
+
+
+header, nav, footer, section, article, div {
+    box-sizing: border-box;
+}
+
+.list_item{
+    width: 20%;
+    display: inline-block;
+}
+.nav a{
+    text-decoration: none;
+    color:gray;
+}
+.nav a:hover{
+    text-decoration: underline;
+    color: black;
+}
+.breaking-news{
+    background-image: url("./images/dog.jpg");
+    width: 100%;
+    height: 300px;
+    position: relative;
+    background-size: cover;
+}
+
+.description{
+    box-sizing: border-box;
+    /* background-color: gray;
+    background-color: transparent; */
+    position:absolute;
+    height: 40%;
+    width: 100%;
+    color: honeydew;
+    /* box-sizing: border-box; */
+  background-color: #000;
+  background-color: rgba(0, 0, 0, 0.7);
+  bottom: 0;
+  /* padding: 1em; */
+}
+.top-news{
+    /* box-sizing: border-box; */
+    padding: 1em;
+    height: 300px;
+    border-bottom: 1px solid honeydew;
+}
+.news-head{
+    border-bottom: 1px solid honeydew;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px; 
+    color:gray;
+}
+.top-news a{
+    text-decoration: none;
+    color:gray;
+    float: right;
+}
+ul{
+    list-style: none;
+    
+}
+.top-news-item{
+    border-bottom: 1px solid honeydew;
+}
+.top-news-item::before{
+    content: "» ";
+    color: gray;
+}
+
+.top-news-item:last-child {
+    border-bottom: none;
+  }
+.top-news-item a {
+    text-decoration: none;
+    color: #666;
+    /* padding: 1em */
+    
+}
+  
+.top-news-item a:hover {
+    text-decoration: underline;
+}
+
+.scores{
+    padding-top: 1em;
+}
+.scores-table{
+    width:100%;
+    border-collapse: collapse;
+}
+.scores-table th,
+.scores-table td {
+  padding: 1em; 
+}
+
+.scores-table th {
+  color: #fff;
+  font-weight: 300;
+  background-color: #78909C;
+}
+
+.scores-table tr:nth-child(odd) td {
+    background-color: #fff;
+  }
+  
+  .scores-table tr:nth-child(even) td {
+    background-color: #eceff1;
+  }
+
+  .scores-table td.winner{
+      font-weight: bold;
+  }
+
+  .scores-table td:nth-child(3) {
+    text-align: right;
+  }
+  
+  .scores-table td:nth-child(2),
+  .scores-table td:nth-child(5) {
+    text-align: center;
+  }
+
+
+  .weather{
+    padding-top: 1em;
+}
+.weather-loc, .weather-desc, .wether-today{
+    display: block;
+    font-weight: 300;
+    font-size: 1.5em;
+}
+/* .weather-temp, .weather-deg{
+    display: inline;
+    vertical-align: middle;
+} */
+
+
+.weather-item {
+    display: inline-block;
+    width: 20%;
+    text-align: center;
+}
+  
+.weather-item span {
+    display: block;
+}
+  
+.list-item-img {
+    width: 100%;
+}
+
+
+.latest-news{
+    /* box-sizing: border-box; */
+    padding: 1em;
+    height: 300px;
+    border-bottom: 1px solid honeydew;
+}
+.latest{
+    border-bottom: 1px solid honeydew;
+    font-weight: 300;
+    line-height: 24px;
+    font-size: 16px; 
+    color:gray;
+}
+.latest-news a{
+    text-decoration: none;
+    color:gray;
+    float: right;
+}
+
+.latest-list{
+    clear: both;
+  margin: 24px 0;
+}
+
+.latest-img{
+    width: 100px;
+    float: left;
+    margin-right: 1em;
+}
+
+.latest-head{
+    /* display: block; */
+    font-weight: 500;
+}
+
+.latest-head a{
+    text-decoration: none;
+    color: gray;
+    /* padding: 1.5em inherit */
+}
+
+.latest-head a:hover{
+    text-decoration: underline;
+}
+
+footer{
+    border-top: 1px solid honeydew;
+    padding: 1em;
+    width: 100%;
+}
+
+footer li{
+    display: inline-block;
+}
+
+footer a{
+    text-decoration: none;
+    color: gray;
+    padding: 1em;
+}
